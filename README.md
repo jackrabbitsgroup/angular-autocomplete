@@ -40,7 +40,7 @@ https://github.com/jackrabbitsgroup/angular-autocomplete/blob/master/autocomplet
 	1. git commit changes
 	2. git tag with the version number, i.e. `git tag v1.0.0`
 4. create github repo and push
-	1. `git remote add origin [github url]`
+	1. [if remote does not already exist or is incorrect] `git remote add origin [github url]`
 	2. `git push origin master` (want to push master branch first so it is the default on github)
 	3. `git checkout gh-pages`
 	4. `git push origin gh-pages`
