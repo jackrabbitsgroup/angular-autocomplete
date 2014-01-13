@@ -20,7 +20,7 @@ config(['$routeProvider', '$locationProvider', '$compileProvider', function($rou
 	var staticPath;
 	// staticPath ='/angular-directives/angular-autocomplete/';		//local
 	staticPath ='/';		//local (nodejs)
-	// staticPath ='/angular-autocomplete/';		//gh-pages
+	staticPath ='/angular-autocomplete/';		//gh-pages
 	var appPathRoute ='/';
 	var pagesPath =staticPath+'pages/';
 	
